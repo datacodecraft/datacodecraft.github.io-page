@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Collective — Our Team</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #1a1a2e;
+      color: white;
+      padding: 18px 40px;
+      overflow: hidden;
+    }
+
+    header .site-name {
+      float: left;
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    nav {
+      float: right;
+      padding-top: 6px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 24px;
+    }
+
+    nav ul li a {
+      color: #ccc;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+    }
+
+    nav ul li a:hover { color: white; }
+
+    .clearfix::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .page-title {
+      background: #1a1a2e;
+      color: white;
+      padding: 50px 40px 40px;
+      border-bottom: 4px solid #e94560;
+    }
+
+    .page-title h1 {
+      font-size: 2.2rem;
+      font-weight: normal;
+      margin-bottom: 8px;
+    }
+
+    .page-title p {
+      color: #aaa;
+      font-size: 0.95rem;
+      font-family: Arial, sans-serif;
+    }
+
+    .team-section {
+      max-width: 880px;
+      margin: 40px auto;
+      padding: 0 30px 60px;
+    }
+
+    .member {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 28px;
+      margin-bottom: 28px;
+      overflow: hidden;
+    }
+
+    .member img {
+      float: left;
+      width: 140px;
+      height: 140px;
+      object-fit: cover;
+      object-position: center top;
+      border-radius: 4px;
+      margin-right: 28px;
+    }
+
+    .member:nth-child(even) img {
+      float: right;
+      margin-right: 0;
+      margin-left: 28px;
+    }
+
+    .member-info { overflow: hidden; }
+
+    .member-info h2 {
+      font-size: 1.3rem;
+      color: #1a1a2e;
+      margin-bottom: 4px;
+    }
+
+    .member-info .role {
+      display: inline-block;
+      background: #e94560;
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 0.75rem;
+      padding: 3px 10px;
+      border-radius: 3px;
+      margin-bottom: 12px;
+      letter-spacing: 0.5px;
+    }
+
+    .member-info p {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="clearfix">
+    <span class="site-name">Nova Collective</span>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Team</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="page-title">
+    <h1>Meet Our Team</h1>
+    <p>The people behind Nova Collective.</p>
+  </div>
+
+  <section class="team-section">
+
+    <div class="member">
+   <object-position: center center;>
+      <img src="images/man1.jpg" alt="Marco Reyes" />
+      <div class="member-info">
+        <h2>Marco Reyes</h2>
+        <span class="role">Creative Director</span>
+        <p>Marco has spent twelve years in brand strategy. Before he started leading the creative team at Nova, he worked as an art director at studios in Mexico City and Berlin. His approach is pretty simple: he uses fewer elements to help ideas stand out more. When he is not working, he spends his time doing pottery and says the two fields are actually quite similar.</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="images/man2.jpg" alt="Daniel Brauer" />
+      <div class="member-info">
+        <h2>Daniel Brauer</h2>
+        <span class="role">Lead Engineer</span>
+        <p>Daniel began his work with electronics from a young age in Vienna. These days he works as head of the engineering department at Nova. This certainly does not imply that he is always busy with it. On the contrary, he may be busy day and night working on some new web-based system. Regardless of that, he also is perfectly capable of handling tough situations and explaining things to clients without being a programmer himself.</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="images/woman1.jpg" alt="Sophie Vander" />
+      <div class="member-info">
+        <h2>Sophie Vander</h2>
+        <span class="role">UX Researcher</span>
+        <p>Sophie's degree in cognitive psychology influences her approach to design challenges; she always asks "what do people need?" instead of "what do people think they need?" She directs Nova's research practice and leads interviews, usability studies and workshops to ground the team in actual behaviour. She keeps a small telescope in her office.</p>
+      </div>
+    </div>
+
+    <div class="member">
+      <img src="images/woman2.jpg" alt="Priya Lhamo" />
+      <div class="member-info">
+        <h2>Priya Lhamo</h2>
+        <span class="role">Content Strategist</span>
+        <p>Priya has spent her life living and working on three continents, which developed her intensely compassionate style of communication. She manages content strategy at Nova, guiding clients through their options to find the most transparent and truthful version of their story. She's writing her debut book of essays on place and belonging.</p>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>
